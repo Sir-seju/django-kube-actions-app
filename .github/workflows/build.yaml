@@ -10,7 +10,7 @@ on:
 
 jobs:
   test_django_job:
-    uses: Sir-seju/django-kube-actions-app/.github/workflows/test-django.yaml@main
+    uses: sir-seju/django-kube-actions-app/.github/workflows/test-django.yaml@main
   build:
     runs-on: ubuntu-latest
     needs: [test_django_job]
